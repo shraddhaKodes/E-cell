@@ -77,3 +77,4 @@ This project is my solution to the E-Cell Web-Team Recruitment Task. It is a two
 ![Image](https://github.com/user-attachments/assets/d0ef198a-66a7-4e3b-b985-4d8f6aced7dc)
 ### grid case implementation is implemented
 
+[grid_properties_implementation.zip](https://github.com/user-attachments/files/18521799/grid_properties_implementation.zip)
