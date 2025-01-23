@@ -34,10 +34,6 @@ This project is my solution to the E-Cell Web-Team Recruitment Task. It is a two
 - State management with `useState` for interactivity.
 - Navigation handled by **React Router**.
 
-### Tailwind CSS:
-- Utility-first styling for fast and responsive design.
-- Animations and hover effects for enhanced visuals.
-
 ### JavaScript:
 - Event handling to make the grid interactive.
 - Conditional logic to implement the advanced features.
@@ -70,5 +66,14 @@ This project is my solution to the E-Cell Web-Team Recruitment Task. It is a two
 
 ![Image](https://github.com/user-attachments/assets/81f20f82-ed0f-45c6-871d-81b7c6a94dec)
 
-![Image](https://github.com/user-attachments/assets/1a2a100d-6673-4177-b5b9-202fc6a8a9f3)   
+![Image](https://github.com/user-attachments/assets/1a2a100d-6673-4177-b5b9-202fc6a8a9f3)  
+
+![Image](https://github.com/user-attachments/assets/ed9fafe3-a952-459a-8165-b7cc3fc21f68)
+
+![Image](https://github.com/user-attachments/assets/af40265e-1371-42c7-8c3d-bd3cb3363546)
+
+![Image](https://github.com/user-attachments/assets/7568894e-acc7-4da8-b590-0d97ea36a7a7)
+
+![Image](https://github.com/user-attachments/assets/d0ef198a-66a7-4e3b-b985-4d8f6aced7dc)
+### grid case implementation is implemented
 
