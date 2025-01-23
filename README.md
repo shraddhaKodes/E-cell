@@ -63,3 +63,6 @@ This project is my solution to the E-Cell Web-Team Recruitment Task. It is a two
    ```bash
    git clone https://github.com/your-username/ecell-recruitment-task.git
    cd ecell-recruitment-task
+## screen shots
+![Image](https://github.com/user-attachments/assets/35be9540-80db-4d6b-bcf5-6baa2df281ea)
+   
