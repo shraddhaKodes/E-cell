@@ -1,0 +1,83 @@
+/* Container styling */
+.grid-section-container {
+  height: 400px;
+  width: 400px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9fafb; /* Soft white background */
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.3); /* Inner shadow for the container */
+  border-radius: 10px; /* Rounded corners for a modern look */
+}
+
+/* Grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px; /* Symmetrical gaps between squares */
+  width: 100%; /* Full width inside the container */
+  height: 100%; /* Full height inside the container */
+  border-radius: 10px; /* Slight rounding on the edges */
+  background-color: white;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow inside the grid */
+}
+
+/* Grid item */
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #3b82f6; /* Initial color is blue */
+  border-radius: 6px; /* Smooth rounded corners */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions for click effect */
+  border: 2px solid #1e40af; /* Darker border for the blue squares */
+}
+
+/* Red square */
+.grid-item.active {
+  background-color: #ef4444; /* Change to red when clicked */
+  border: 2px solid #b91c1c; /* Darker border for red */
+}
+
+/* Hover effect for squares */
+.grid-item:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Add shadow effect on hover */
+}
+
+/* Responsive design for smaller devices */
+@media screen and (max-width: 768px) {
+  .grid-section-container {
+    height: 300px; /* Adjust container height */
+    width: 300px; /* Adjust container width */
+    padding: 20px;
+  }
+
+  .grid-container {
+    gap: 8px; /* Reduce gaps for smaller screens */
+  }
+
+  .grid-item {
+    border-radius: 5px; /* Slightly smaller rounding */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .grid-section-container {
+    height: 200px; /* Further reduce container size */
+    width: 200px; /* Further reduce container size */
+    padding: 15px;
+  }
+
+  .grid-container {
+    gap: 5px; /* Minimal gaps for very small screens */
+  }
+
+  .grid-item {
+    border-radius: 4px; /* Minimal rounding */
+    transition: none; /* Remove transition for performance on low-end devices */
+  }
+}

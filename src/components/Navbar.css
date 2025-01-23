@@ -1,0 +1,63 @@
+/* Navbar container */
+.navbar {
+    background-color: #1a202c; /* Dark background color */
+    color: white; /* White text */
+    padding: 1rem 2rem; /* Padding for spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Logo Section */
+  .navbar-logo img {
+    height: 3rem; /* Logo height */
+    width: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Pointer cursor for better UX */
+  }
+  
+  /* Navbar Links */
+  .navbar-links {
+    display: flex;
+    gap: 2rem; /* Space between links */
+  }
+  
+  .navbar-links a {
+    font-size: 1.125rem; /* Slightly larger text */
+    font-weight: 600; /* Semi-bold font */
+    color: white; /* White text */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .navbar-links a:hover {
+    color: #f6ad55; /* Yellow on hover */
+  }
+  
+  /* Mobile Menu Button */
+  .navbar-mobile-menu {
+    display: none; /* Hidden by default */
+  }
+  
+  .navbar-mobile-menu button {
+    font-size: 1.5rem; /* Button size */
+    font-weight: bold;
+    color: white;
+    background: none; /* No background */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor */
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .navbar-mobile-menu button:hover {
+    color: #f6ad55; /* Yellow on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-links a{
+      font-size: 1rem; /* Slightly larger text */
+      font-weight: 150;
+    }
+  }
+  

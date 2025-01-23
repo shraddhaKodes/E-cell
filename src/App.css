@@ -1,0 +1,49 @@
+/* App.css */
+
+/* General layout for About page */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 0 1rem;
+}
+
+/* Card styling for the About page content */
+.about-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 48rem; /* 3xl max-width */
+  text-align: center;
+}
+
+/* Title for the About section */
+.about-title {
+  font-size: 2.25rem; /* Text size for title */
+  font-weight: 800; /* Extra bold weight */
+  color: #2d3748; /* Dark gray text */
+  margin-bottom: 1rem;
+}
+
+/* Paragraph for the description in the About section */
+.about-description {
+  font-size: 1.125rem; /* Larger text for description */
+  color: #4a5568; /* Lighter gray text */
+  line-height: 1.75; /* More line height for readability */
+}
+
+/* Optional styling for the Navbar and other pages can also be added */
+@media (max-width: 768px) {
+  .about-title{
+    font-size: 1.35rem; /* Text size for title */
+    font-weight: 700;
+  }
+  .about-description {
+    font-size: 1.00rem; /* Larger text for description */
+    color: #4a5568; /* Lighter gray text */
+    line-height: 1.25; /* More line height for readability */
+  }
+}
