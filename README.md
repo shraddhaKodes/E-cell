@@ -71,3 +71,5 @@ This project is my solution to the E-Cell Web-Team Recruitment Task. It is a two
 ![Image](https://github.com/user-attachments/assets/81f20f82-ed0f-45c6-871d-81b7c6a94dec)
 
 ![Image](https://github.com/user-attachments/assets/1a2a100d-6673-4177-b5b9-202fc6a8a9f3)   
+
+![Image](https://github.com/user-attachments/assets/8d4b274f-2b83-43e4-bf00-0a04c18b1adc)
