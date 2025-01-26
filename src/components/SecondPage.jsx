@@ -1,4 +1,5 @@
 import React from 'react';
+import shraddha2 from '../assets/shraddha2.jpg';
 import './SecondPage.css'; // Import the external CSS
 
 const SecondPage = () => {
@@ -14,7 +15,7 @@ const SecondPage = () => {
                 <div className="text-center">
                     <div className="profile-image-wrapper">
                         <img 
-                            src="src/assets/shraddha2.jpg" 
+                           src={shraddha2}
                             alt="Shraddha Kumari" 
                             className="profile-image"
                         />
